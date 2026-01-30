@@ -1,0 +1,24 @@
+# Plugin manager data (installed to ~/.local/share/nvim/lazy/)
+plugin/
+
+# Swap and backup files
+*.swp
+*.swo
+*~
+
+# Undo history (stored in undodir, usually ~/.local/state/nvim/undo/)
+undo/
+
+# Session files (auto-session stores in ~/.local/share/nvim/sessions/)
+sessions/
+
+# Compiled files
+*.luac
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: Uncomment to exclude lazy-lock.json
+# Some prefer to track it for reproducible plugin versions
+# lazy-lock.json
